@@ -1,0 +1,2 @@
+curl -X DELETE http://localhost:5000/review/1 -H "Content-Type: application/json" -d "{\"username\":\"leo\"}"
+{"message":"Review deleted successfully","reviews":{}}
